@@ -9,10 +9,10 @@ body {
 .calculator {
     display: flex;
     flex-direction: column;
-    border: 1px solid #444; /* Darker border */
+    border: 1px solid #444; 
     border-radius: 10px;
     padding: 25px;
-    background-color: #2a2a2a; /* Darker calculator background */
+    background-color: #2a2a2a; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -20,13 +20,13 @@ body {
     width: 95%;
     height: 50px;
     font-size: 2em;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
     padding: 10px;
-    border: 1px solid #444; /* Darker border */
+    border: 1px solid #444;
     border-radius: 5px;
     margin-bottom: 10px;
-    background-color: #333; /* Dark background for screen */
-    color: #ffffff; /* Light text color */
+    background-color: #333; 
+    color: #ffffff; 
 }
 
 .calculator-keys {
@@ -40,42 +40,42 @@ button {
     padding: 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff; /* Button color */
+    background-color: #007bff; 
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
 }
 
 .operator {
-    background-color: #28a745; /* Green for operators */
+    background-color: #28a745; 
 }
 
 .operator:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838; 
 }
 
 .all-clear {
-    background-color: #dc3545; /* Red for all clear */
+    background-color: #dc3545; 
 }
 
 .all-clear:hover {
-    background-color: #c82333; /* Darker red on hover */
+    background-color: #c82333; 
 }
 
 .backspace {
-    background-color: #f0ad4e; /* Example color */
+    background-color: #f0ad4e; 
     color: white;
 }
 
 .equal-sign {
-    grid-column: span 2; /* Make equal sign button span two columns */
-    background-color: #ffc107; /* Yellow for equal sign */
+    grid-column: span 2; 
+    background-color: #ffc107; 
 }
 
 .equal-sign:hover {
-    background-color: #e0a800; /* Darker yellow on hover */
+    background-color: #e0a800; 
 }
